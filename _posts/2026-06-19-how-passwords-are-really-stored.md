@@ -1,13 +1,15 @@
 ---
 title: "How Passwords Are Actually Stored — And Why It Matters"
-date: 2026-06-25 10:00:00 +0500
+date: 2026-06-19 10:00:00 +0500
 categories: [Learning, CS50 Cybersecurity]
 tags: [hashing, encryption, passwords, cryptography, beginner]
 ---
 
-I just finished Harvard's CS50 Cybersecurity course, and one of the first things that genuinely surprised me was how passwords work under the hood.
+I just finished Harvard's CS50 Cybersecurity course, and one of the first things that genuinely surprised me was how passwords work under the hood. I always assumed websites stored your password somewhere and checked it when you logged in. Turns out that's exactly the wrong way to do it — and plenty of companies have learned that the hard way.
 
-## an everyday person idea of how passwords are stored
+## What I Thought Happened
+
+I assumed a website worked like this:
 
 1. You create an account with the password `hunter2`
 2. The website stores `hunter2` in a database
