@@ -1,5 +1,5 @@
 ---
-title: "OverTheWire Bandit: Level 0 → Level 1"
+title: "OverTheWire Bandit: Level 0"
 date: 2026-06-25 03:00:00 +0500
 categories: [CTF, Bandit]
 tags: [linux, ssh, overthewire, beginner]
