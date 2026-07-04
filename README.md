@@ -1,39 +1,44 @@
-# Chirpy Starter
+# denarzai.github.io
 
-[![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)][gem]&nbsp;
-[![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
+My personal cybersecurity blog, live at **[denarzai.github.io](https://denarzai.github.io)**.
 
-A minimal, ready-to-use template for creating a blog with the [**Chirpy**][chirpy] Jekyll theme. Get up and running in minutes with all critical files pre-configured.
+I'm a BS Cybersecurity student at FAST NUCES Islamabad, and this blog documents everything I learn on the way to becoming a security professional — CTF walkthroughs, course reflections, and plain-language explanations of security concepts.
 
-## Why This Starter Exists
+## What's on the blog
 
-When installing Chirpy through [RubyGems.org][gem], Jekyll can only read a subset of theme files (`_data`, `_layouts`, `_includes`, `_sass`, `assets`) and limited `_config.yml` options from the gem. As a result, users cannot enjoy the full out-of-the-box experience that Chirpy offers.
+- **OverTheWire Bandit series** — step-by-step walkthroughs of every level I've completed (Level 0 through Level 21 and counting), covering Linux fundamentals, SSH, file permissions, cron jobs, setuid binaries, and privilege escalation
+- **TryHackMe notes** — writeups from the Pre-Security and Jr Penetration Tester paths
+- **Concept posts** — how passwords are really stored, why HTTPS is not enough, SQL injection in the real world, what file metadata reveals about you
+- **Course reflections** — Harvard CS50 Cybersecurity, including my final project on the Salt Typhoon APT campaign
 
-To unlock all features, the following files must be present in your Jekyll site:
+## Tech
 
-```shell
-.
-├── _config.yml
-├── _plugins
-├── _tabs
-└── index.html
+Built with [Jekyll](https://jekyllrb.com/) and the [Chirpy theme](https://github.com/cotes2020/jekyll-theme-chirpy), deployed automatically to GitHub Pages via GitHub Actions on every push.
+
+### Run locally
+
+```bash
+git clone https://github.com/Denarzai/Denarzai.github.io.git
+cd Denarzai.github.io
+bundle install
+bundle exec jekyll serve
 ```
 
-This starter bundles those files from the latest **Chirpy** release along with a [CD][CD] workflow, so you can start writing immediately.
+Then open `http://127.0.0.1:4000`.
 
-## Usage
+### Write a new post
 
-Check out the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy/wiki).
+Add a Markdown file to `_posts/` named `YYYY-MM-DD-title.md` with Chirpy front matter:
 
-## Contributing
-
-This repository is automatically updated with new releases from the theme repository. If you encounter any issues or want to contribute to its improvement, please visit the [theme repository][chirpy] to provide feedback.
+```yaml
+---
+title: "Post Title"
+date: YYYY-MM-DD HH:MM:SS +0500
+categories: [CTF, Bandit]
+tags: [linux, ssh]
+---
+```
 
 ## License
 
-This work is published under [MIT][mit] License.
-
-[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
-[chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
-[CD]: https://en.wikipedia.org/wiki/Continuous_deployment
-[mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE
+Content and configuration published under the [MIT License](LICENSE). Theme by [cotes2020/jekyll-theme-chirpy](https://github.com/cotes2020/jekyll-theme-chirpy).
