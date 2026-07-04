@@ -24,4 +24,4 @@ I completed Harvard's CS50 Introduction to Cybersecurity and did my final projec
 
 - GitHub: [Denarzai](https://github.com/Denarzai)
 - LinkedIn: [subhan-cybersec](https://www.linkedin.com/in/subhan-cybersec)
-- Email: Sdenarzai786@gmail.com
+- Email: sdenarzai786@gmail.com
