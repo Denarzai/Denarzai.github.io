@@ -1,7 +1,7 @@
 ---
 title: "TryHackMe Pre-Security: Module 3 — Operating Systems"
 date: 2026-07-04 04:47:00 +0500
-categories: [Learning, TryHackMe]
+categories: [Learning, TryHackMe, Pre-Security]
 tags: [tryhackme, linux, windows, operating-systems, privilege-escalation, cli, beginner]
 ---
 

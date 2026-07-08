@@ -1,7 +1,7 @@
 ---
 title: "TryHackMe Pre-Security: Module 7 — Attacks and Defenses"
 date: 2026-07-08 10:02:00 +0500
-categories: [Learning, TryHackMe]
+categories: [Learning, TryHackMe, Pre-Security]
 tags: [tryhackme, cia-triad, cryptography, gobuster, hydra, ethical-hacking, offensive-security, defensive-security, beginner]
 ---
 

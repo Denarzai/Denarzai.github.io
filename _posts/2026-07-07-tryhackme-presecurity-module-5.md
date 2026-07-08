@@ -1,7 +1,7 @@
 ---
 title: "TryHackMe Pre-Security: Module 5 — Networking Fundamentals"
 date: 2026-07-07 19:47:00 +0500
-categories: [Learning, TryHackMe]
+categories: [Learning, TryHackMe, Pre-Security]
 tags: [tryhackme, networking, osi-model, tcp-ip, subnetting, dhcp, arp, firewalls, vpn, beginner]
 ---
 
