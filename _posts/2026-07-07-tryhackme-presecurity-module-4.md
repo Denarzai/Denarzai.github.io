@@ -1,7 +1,7 @@
 ---
 title: "TryHackMe Pre-Security: Module 4 — Data Representation & Programming Basics"
 date: 2026-07-07 14:17:00 +0500
-categories: [Learning, TryHackMe]
+categories: [Learning, TryHackMe, Pre-Security]
 tags: [tryhackme, binary, unicode, python, javascript, sql, beginner]
 ---
 

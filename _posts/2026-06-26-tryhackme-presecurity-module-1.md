@@ -1,7 +1,7 @@
 ---
 title: "TryHackMe Pre-Security: Module 1 — Introduction to Cyber Security"
 date: 2026-06-26 20:00:00 +0500
-categories: [Learning, TryHackMe]
+categories: [Learning, TryHackMe, Pre-Security]
 tags: [tryhackme, offensive-security, defensive-security, soc, careers, beginner]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "TryHackMe Pre-Security: Module 2 — Introduction to IT & Computing"
 date: 2026-07-02 05:09:00 +0500
-categories: [Learning, TryHackMe]
+categories: [Learning, TryHackMe, Pre-Security]
 tags: [tryhackme, networking, cloud, virtualization, operating-systems, beginner]
 ---
 

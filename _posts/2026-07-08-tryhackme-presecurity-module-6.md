@@ -1,7 +1,7 @@
 ---
 title: "TryHackMe Pre-Security: Module 6 — How the Web Works"
 date: 2026-07-08 08:23:00 +0500
-categories: [Learning, TryHackMe]
+categories: [Learning, TryHackMe, Pre-Security]
 tags: [tryhackme, dns, http, html, javascript, web-security, sql-injection, xss, beginner]
 ---
 
