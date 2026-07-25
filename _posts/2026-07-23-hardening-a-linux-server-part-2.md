@@ -1,11 +1,12 @@
 ---
 title: "Hardening a Linux Server From Scratch — Part 2: Fixing It and Proving It Worked"
 date: 2026-07-23 15:44:00 +0500
+permalink: /posts/linux-baseline-hardening/
 categories: [Hands-On, Linux Security]
 tags: [linux, hardening, ssh, firewall, ufw, sudo, vulnerability-assessment, beginner]
 ---
 
-In [Part 1](/posts/assessing-a-linux-servers-security-baseline-part-1-enumeration-assessment/) I assessed a freshly deployed Ubuntu server and found five default-state weaknesses. This post is the other half: fixing each one *without locking myself out*, and then **proving** the fixes actually worked. Honestly, the "proving" part is where I learned the most — a config file will happily lie to you.
+In [Part 1](/posts/linux-baseline-assessment/) I assessed a freshly deployed Ubuntu server and found five default-state weaknesses. This post is the other half: fixing each one *without locking myself out*, and then **proving** the fixes actually worked. Honestly, the "proving" part is where I learned the most — a config file will happily lie to you.
 
 ## Snapshot First, Always
 

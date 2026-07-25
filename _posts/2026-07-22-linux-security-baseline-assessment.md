@@ -1,6 +1,7 @@
 ---
 title: "Assessing a Linux Server's Security Baseline — Part 1: Enumeration & Assessment"
 date: 2026-07-22 20:45:00 +0500
+permalink: /posts/linux-baseline-assessment/
 categories: [Hands-On, Linux Security]
 tags: [linux, hardening, ssh, firewall, vulnerability-assessment, suid, beginner]
 ---
